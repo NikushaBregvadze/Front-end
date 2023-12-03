@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.container {
+    
+    margin: auto;
+    background-color:#362F2D ;
+}
+i {
+    color: #3F5363;
+}
+span {
+    color: #fff;
+}
+li {
+    display: inline;
+}
+.top_inner {
+    display: flex;
+}
+.left {
+    width: 85%;
+}
+.dropbtn {
+  margin-bottom: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.im {
+  display: flex;
+}
+  
+nav  {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 1400px;
+
+}
+
+.dropbtn {
+    background-color: #3F5363;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: auto;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+}
+  
+.im {
+  width: 100px;
+  height: 100px;
+  
+}
+  .dropdown:hover .dropbtn {background-color: #0a5f9f;}
+
+ section .lord {
+  background-image: url(./Voldemort_WB_F5_VoldemortLookingUpCloseUp_Still_080615_Land.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+nav {
+  display: flex;
+  float:unset;
+}
+.dropbtn {
+  width: 150px;
+  display: flex;
+  margin-bottom: 400px;
+ 
+}
+

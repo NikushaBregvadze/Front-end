@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    text-align: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+#logo1 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    
+}
+.hre {
+    transition:1s;
+    
+}
+.hre:hover {
+    transform: scale(1.1);
+    
+}
+.card2 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-color: palevioletred;
+}
+.card2 .hre a {
+    background-color: #fff   ;
+    color: palevioletred;
+    text-overflow:clip;
+}
+.card3 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+.card1 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+#logo {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+p {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.hre  {
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 160px;
+    height: 35px;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
